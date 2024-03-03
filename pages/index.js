@@ -1,7 +1,7 @@
 function Home() {
     return (
         <div>
-            <h1>Eu te amo infinito minha loguinha!</h1>
+            <h1>Quem ern matt?</h1>
             <p>❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️</p>
         </div>
     )
