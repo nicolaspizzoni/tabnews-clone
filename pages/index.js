@@ -1,8 +1,8 @@
 function Home() {
     return (
         <div>
-            <h1>Quem ern matt?</h1>
-            <p>❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️</p>
+            <h1>Te amo infinito meu amor!</h1>
+            <p>❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️</p>
         </div>
     )
 }
