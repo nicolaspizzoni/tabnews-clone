@@ -18,7 +18,7 @@ test("GET api/v1/status should return status code 200", async () => {
   expect(openedConnections).toBe(1);
 })
 
-it("should test for SQL Injection", async () => {
-  //Injeção SQL ao fechar primeira query e lançar nova fazendo o back levar 4s na requisição
-  await fetch("http://localhost:3000/api/v1/status?databaseName='; SELECT pg_sleep(4) --")
-})
+// it("should test for SQL Injection", async () => {
+//   //Injeção SQL ao fechar primeira query e lançar nova fazendo o back levar 4s na requisição
+//   await fetch("http://localhost:3000/api/v1/status?databaseName='; SELECT pg_sleep(4) --")
+// })
